@@ -1,0 +1,108 @@
+/* ベース */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s;
+  color: #fff;
+}
+a:hover {
+  color: #aaa;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* レイアウト */
+
+.l-header {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #666;
+}
+
+.l-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.l-footer {
+  margin-top: 50px;
+  border-top: 1px solid #666;
+}
+
+.l-text-center {
+  text-align: center;
+}
+
+.l-margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-mainParent {
+  align-items: normal;
+  overflow: hidden;
+  max-width: 960px;
+}
+
+.l-main {
+  padding: 50px 25px;
+  width: 70%;
+  float: left;
+}
+
+.l-sidebar {
+  padding: 50px 75px;
+  float: right;
+}
+
+.l-nav {
+  display: flex;
+}
+
+.l-nav > li {
+  padding: 2px 5px;
+  margin-left: 10px;
+}
+/* モジュール */
+
+.title_logo {
+  color: #fff;
+}
+.title_logo.title_logo-small {
+  font-size: 10px;
+}
+.title_logo.title_logo-big {
+  font-size: 30px;
+}
+.sidebar_link {
+  color: #333333;
+}
+
+/* テーマ */
+.theme-dark {
+  background: #333;
+}
+.theme-light {
+  background: #fff;
+}
